@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midia em HTML</title>
+</head>
+<body>
+  <h1>imagens dinamica</h1>
+  <p>vamos abrir em varios tamanho diferente ou simplismete aumente ou diminua o seu navegador</p>  
+  <picture>
+      <source media="(max-width: 750px)"srcset="imagens/foto-p.png"type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+      <img src="imagens/foto-g.png" alt="imagens flexível">
+  </picture>
+  <h1>reproduzindo audio</h1>
+  <p>vamos aprender a produzir audio no html</p>
+  <audio src="midia/rock - Jeremy Korpas.mp3"controls autoplay></audio>
+  <audio>
+      <source src="midia/rock - Jeremy Korpas.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
